@@ -1,0 +1,11 @@
+fileignoreconfig:
+- filename: 'secrets.json'
+  fileignoreconfig:
+  - filename: test
+    allowed_patterns: [key]
+  allowed_patterns:
+  - password
+  - secretkey
+- filename: 'secrets.cs'
+  checksum: 6526576b02fb30e5e3e1a52e338698c4488d02329efdc8a97ab07ef28a4a087f
+  ignore_detectors: []
